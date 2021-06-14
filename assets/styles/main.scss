@@ -393,11 +393,11 @@ main {
 .favorites,
 .mygifos {
   padding-top: 30%;
-  @media ($desk) {
-    padding-top: 7.5%;
-  }
   @media ($tablet) {
     padding-top: 10%;
+  }
+  @media ($desk) {
+    padding-top: 7.5%;
   }
   .image {
     display: block;

@@ -509,17 +509,17 @@ main .results .results__more {
   padding-top: 30%;
 }
 
-@media (min-width: 1440px) {
-  .favorites,
-  .mygifos {
-    padding-top: 7.5%;
-  }
-}
-
 @media (min-width: 768px) {
   .favorites,
   .mygifos {
     padding-top: 10%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .favorites,
+  .mygifos {
+    padding-top: 7.5%;
   }
 }
 
