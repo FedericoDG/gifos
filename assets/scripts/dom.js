@@ -9,10 +9,14 @@ const endpointUpload = 'https://upload.giphy.com/v1/gifs?api_key=';
 /* MENÚ Y HAMBURGUESA */
 const burguer = document.querySelector('.navbar__burguer');
 const menu = document.querySelector('.navbar__list');
+const menuFavorites = document.getElementById('menu-favorites');
+const menuMygifos = document.getElementById('menu-mygifos');
+const menuCreate = document.getElementById('menu-create');
 const goToHome = document.querySelector('.logo');
 const goToFavorites = document.getElementById('goto-favorites');
 const goToMyGifos = document.getElementById('goto-my-gifos');
 const goToCreateGifos = document.getElementById('goto-create-gifos');
+
 
 /* HERO Y BUSCADOR */
 const hero = document.querySelector('.heading');
@@ -68,34 +72,34 @@ const body = document.getElementById('body');
 const moreGifos = document.getElementById('moreGifos');
 const footer = document.querySelector('.footer');
 const iconSearch = document.getElementById('icon-search');
-const gifCreateBorder = document.querySelector('.border')
+const gifCreateBorder = document.querySelector('.border');
 
 /* CREAR GIFO */
 const createGifos = document.querySelector('.creargif');
 const gifCreateTitle = document.getElementById('crearGif_title');
 const gifCreateText = document.getElementById('crearGif_text');
-const gifCreateOverlay = document.getElementById('overlay')
-const overlay__buttonscontainer = document.querySelector('.overlay__buttons-container')
-const girCreateOverlayStatusIcon = document.getElementById('overlay_status-icon')
-const girCreateOverlayStatusText = document.getElementById('overlay_status-text')
-const gifCreateRecordingZone = document.querySelector('.creargif__recordingZone')
+const gifCreateOverlay = document.getElementById('overlay');
+const overlay__buttonscontainer = document.querySelector('.overlay__buttons-container');
+const girCreateOverlayStatusIcon = document.getElementById('overlay_status-icon');
+const girCreateOverlayStatusText = document.getElementById('overlay_status-text');
+const gifCreateRecordingZone = document.querySelector('.creargif__recordingZone');
 const video = document.getElementById('recording_video');
 const recordedGifo = document.getElementById('recorded_gifo');
 const timerRecording = document.getElementById('timer-recording');
-const repeatShot =document.getElementById('repeatShot')
-const stepOne = document.getElementById('step-1')
-const stepTwo = document.getElementById('step-2')
-const stepThree = document.getElementById('step-3')
+const repeatShot = document.getElementById('repeatShot');
+const stepOne = document.getElementById('step-1');
+const stepTwo = document.getElementById('step-2');
+const stepThree = document.getElementById('step-3');
 const btnCreateGifoStart = document.getElementById('button-comenzar');
 const btnCreateGifoRecord = document.getElementById('button-grabar');
 const btnCreateGifoEnd = document.getElementById('button-finalizar');
 const btnCreateGifoUpload = document.getElementById('button-subirGif');
-const creargifCamara = document.querySelector('.creargif__camara')
-const camaraCuerpo = document.querySelector('.camara')
-const carreteChico = document.querySelector('.carrete-chico')
-const carreteGrande = document.querySelector('.carrete-grande')
-const celuloide = document.getElementById('celuloide')
-const blobRec = document.querySelector('.blob')
+const creargifCamara = document.querySelector('.creargif__camara');
+const camaraCuerpo = document.querySelector('.camara');
+const carreteChico = document.querySelector('.carrete-chico');
+const carreteGrande = document.querySelector('.carrete-grande');
+const celuloide = document.getElementById('celuloide');
+const blobRec = document.querySelector('.blob');
 
 /* OTRAS */
 const header = document.getElementById('header');

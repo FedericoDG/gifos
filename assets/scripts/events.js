@@ -24,6 +24,9 @@ iconSearchCloseHero.addEventListener('click', () => {
 
 /* EVENTO IR A HOME */
 goToHome.addEventListener('click', () => {
+  menuFavorites.classList.remove('menu-active');
+  menuMygifos.classList.remove('menu-active');
+  menuCreate.classList.remove('menu-active');
   createGifos.classList.add('hidden');
   myGifos.classList.add('hidden');
   favorites.classList.add('hidden');
@@ -65,6 +68,9 @@ goToDarkMode.addEventListener('click', () => {
 
 /* EVENTO IR A FAVORITOS */
 goToFavorites.addEventListener('click', () => {
+  menuFavorites.classList.add('menu-active');
+  menuMygifos.classList.remove('menu-active');
+  menuCreate.classList.remove('menu-active');
   hero.classList.add('hidden');
   myGifos.classList.add('hidden');
   results.classList.add('hidden');
@@ -95,6 +101,9 @@ goToFavorites.addEventListener('click', () => {
 
 /* EVENTO IR A MIS GIFOS */
 goToMyGifos.addEventListener('click', () => {
+  menuFavorites.classList.remove('menu-active');
+  menuMygifos.classList.add('menu-active');
+  menuCreate.classList.remove('menu-active');
   hero.classList.add('hidden');
   favorites.classList.add('hidden');
   createGifos.classList.add('hidden');
@@ -125,6 +134,9 @@ goToMyGifos.addEventListener('click', () => {
 
 /* EVENTO IR A CREAR GIFOS */
 goToCreateGifos.addEventListener('click', () => {
+  menuFavorites.classList.remove('menu-active');
+  menuMygifos.classList.remove('menu-active');
+  menuCreate.classList.add('menu-active');
   hero.classList.add('hidden');
   results.classList.add('hidden');
   trendingSuggestion.classList.add('hidden');
@@ -142,7 +154,7 @@ goToCreateGifos.addEventListener('click', () => {
   gifCreateTitle.classList.remove('hidden');
   gifCreateText.classList.remove('hidden');
   video.classList.add('hidden');
-  repeatShot.classList.add('hidden')
+  repeatShot.classList.add('hidden');
   if (window.innerWidth < 1440) {
     menu.classList.remove('show');
   }

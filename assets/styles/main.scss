@@ -143,16 +143,29 @@ header {
                 background: url("../images/CTA-crear-gifo-hover.svg") center
                   no-repeat;
               }
-              &:active {
-                background: url("../images/CTA-crear-gifo-active.svg") center
-                  no-repeat;
-              }
             }
             &:hover {
               text-decoration: underline;
               text-decoration-thickness: 3px;
               text-decoration-color: $colorAqua;
               text-underline-offset: 0.5rem;
+            }
+            .menu-active {
+              background: url("../images/CTA-crear-gifo-active.svg") center
+                no-repeat;
+              &:hover {
+                background: url("../images/CTA-crear-gifo-active.svg") center
+                  no-repeat;
+              }
+            }
+          }
+        }
+        @media ($desk) {
+          .menu-active {
+            color: $colorDarkGray;
+            cursor: default;
+            &:hover {
+              text-decoration: none;
             }
           }
         }
@@ -1191,6 +1204,14 @@ header.dark {
             &:hover {
               background: url("../images/CTA-crear-gifo-hover-modo-noc.svg")
                 center no-repeat;
+            }
+          }
+          .menu-active {
+            background: url("../images/CTA-crear-gifo-active.svg") center
+              no-repeat;
+            &:hover {
+              background: url("../images/CTA-crear-gifo-active.svg") center
+                no-repeat;
             }
           }
         }

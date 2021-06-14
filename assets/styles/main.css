@@ -175,15 +175,28 @@ header .navbar .navbar__list .navbar__list-item a {
   header .navbar .navbar__list .navbar__list-item a span:hover {
     background: url("../images/CTA-crear-gifo-hover.svg") center no-repeat;
   }
-  header .navbar .navbar__list .navbar__list-item a span:active {
-    background: url("../images/CTA-crear-gifo-active.svg") center no-repeat;
-  }
   header .navbar .navbar__list .navbar__list-item a:hover {
     text-decoration: underline;
     text-decoration-thickness: 3px;
     -webkit-text-decoration-color: #50e3c2;
             text-decoration-color: #50e3c2;
     text-underline-offset: 0.5rem;
+  }
+  header .navbar .navbar__list .navbar__list-item a .menu-active {
+    background: url("../images/CTA-crear-gifo-active.svg") center no-repeat;
+  }
+  header .navbar .navbar__list .navbar__list-item a .menu-active:hover {
+    background: url("../images/CTA-crear-gifo-active.svg") center no-repeat;
+  }
+}
+
+@media (min-width: 1366px) {
+  header .navbar .navbar__list .navbar__list-item .menu-active {
+    color: #9cafc3;
+    cursor: default;
+  }
+  header .navbar .navbar__list .navbar__list-item .menu-active:hover {
+    text-decoration: none;
   }
 }
 
@@ -1725,6 +1738,14 @@ header.dark .navbar .navbar__list .navbar__list-item a span {
 
 header.dark .navbar .navbar__list .navbar__list-item a span:hover {
   background: url("../images/CTA-crear-gifo-hover-modo-noc.svg") center no-repeat;
+}
+
+header.dark .navbar .navbar__list .navbar__list-item a .menu-active {
+  background: url("../images/CTA-crear-gifo-active.svg") center no-repeat;
+}
+
+header.dark .navbar .navbar__list .navbar__list-item a .menu-active:hover {
+  background: url("../images/CTA-crear-gifo-active.svg") center no-repeat;
 }
 
 .heading.dark .heading__title {
