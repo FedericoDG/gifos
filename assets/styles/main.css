@@ -278,15 +278,15 @@ main .heading .heading__search .heading__search-container {
   /* Estilos para activo */
 }
 
-@media (min-width: 1440px) {
-  main .heading .heading__search .heading__search-container {
-    width: 40%;
-  }
-}
-
 @media (min-width: 768px) {
   main .heading .heading__search .heading__search-container {
     width: 52%;
+  }
+}
+
+@media (min-width: 1440px) {
+  main .heading .heading__search .heading__search-container {
+    width: 40%;
   }
 }
 
@@ -343,15 +343,15 @@ main .heading .heading__search .heading__search-suggestion hr {
   color: #9cafc3;
 }
 
-@media (min-width: 1440px) {
-  main .heading .heading__search .heading__search-suggestion {
-    width: 40%;
-  }
-}
-
 @media (min-width: 768px) {
   main .heading .heading__search .heading__search-suggestion {
     width: 52%;
+  }
+}
+
+@media (min-width: 1440px) {
+  main .heading .heading__search .heading__search-suggestion {
+    width: 40%;
   }
 }
 
@@ -469,6 +469,13 @@ main .results .results__gallery .results__gallery-item {
   position: relative;
 }
 
+@media (min-width: 768px) {
+  main .results .results__gallery .results__gallery-item {
+    width: 12rem;
+    height: 9rem;
+  }
+}
+
 @media (min-width: 1440px) {
   main .results .results__gallery .results__gallery-item {
     margin: 0.5rem;
@@ -480,13 +487,6 @@ main .results .results__gallery .results__gallery-item {
     overflow: hidden;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-  }
-}
-
-@media (min-width: 768px) {
-  main .results .results__gallery .results__gallery-item {
-    width: 12rem;
-    height: 9rem;
   }
 }
 
@@ -753,17 +753,17 @@ main .results .results__more {
   position: relative;
 }
 
+@media (min-width: 768px) {
+  .trending .trending__container .trending__container-slider .item {
+    height: 9rem;
+  }
+}
+
 @media (min-width: 1440px) {
   .trending .trending__container .trending__container-slider .item {
     -webkit-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.25);
             box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.25);
     height: 16rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .trending .trending__container .trending__container-slider .item {
-    height: 9rem;
   }
 }
 

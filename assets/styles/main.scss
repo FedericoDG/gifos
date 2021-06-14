@@ -217,11 +217,11 @@ main {
         border-radius: 20px;
         padding: 0.5rem 1rem;
         margin: 0rem 1rem;
-        @media ($desk) {
-          width: 40%;
-        }
         @media ($tablet) {
           width: 52%;
+        }
+        @media ($desk) {
+          width: 40%;
         }
         /* Estilos para activo */
         .heading__search-container_input {
@@ -264,11 +264,11 @@ main {
           top: -0.75rem;
           color: $colorDarkGray;
         }
-        @media ($desk) {
-          width: 40%;
-        }
         @media ($tablet) {
           width: 52%;
+        }
+        @media ($desk) {
+          width: 40%;
         }
         ul {
           list-style: none;
@@ -364,6 +364,10 @@ main {
         width: 8rem;
         height: 6rem;
         position: relative;
+        @media ($tablet) {
+          width: 12rem;
+          height: 9rem;
+        }
         @media ($desk) {
           margin: 0.5rem;
           width: 22rem;
@@ -372,10 +376,6 @@ main {
           border-radius: 5px;
           overflow: hidden;
           transition: 0.5s;
-        }
-        @media ($tablet) {
-          width: 12rem;
-          height: 9rem;
         }
         .image {
           width: 100%;
@@ -520,12 +520,12 @@ main {
         height: 6rem;
         margin: 1rem 0.5rem;
         position: relative;
+        @media ($tablet) {
+          height: 9rem;
+        }
         @media ($desk) {
           box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.25);
           height: 16rem;
-        }
-        @media ($tablet) {
-          height: 9rem;
         }
         img {
           height: 100%;
