@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Grupo_1" data-name="Grupo 1" transform="translate(-1227 -291)">
+    <g id="GIFOS" transform="translate(1227 291)">
+      <g id="_00-UI-Kit" data-name="00-UI-Kit" transform="translate(-858 -2903)">
+        <g id="icon-trash-hover" transform="translate(858 2903)">
+          <rect id="Rectangle-Copy-6" width="32" height="32" rx="6" fill="#fff"/>
+          <path id="Combined-Shape" d="M18,7a2.5,2.5,0,0,1,2.5,2.5h0v.833h3.334a.833.833,0,0,1,.827.729l.007.1a.833.833,0,0,1-.833.833H23V22.833a2.5,2.5,0,0,1-2.336,2.495l-.164.005H12.167a2.5,2.5,0,0,1-2.5-2.5h0V12H8.833a.833.833,0,0,1-.827-.729L8,11.167a.833.833,0,0,1,.833-.833h3.333V9.5A2.5,2.5,0,0,1,14.5,7.005L14.667,7Zm3.333,5h-10V22.833a.833.833,0,0,0,.729.827l.1.007H20.5a.833.833,0,0,0,.833-.833h0Zm-6.666,2.5a.833.833,0,0,1,.833.833h0v5a.833.833,0,1,1-1.667,0h0v-5A.833.833,0,0,1,14.667,14.5ZM18,14.5a.833.833,0,0,1,.833.833h0v5a.833.833,0,1,1-1.667,0h0v-5A.833.833,0,0,1,18,14.5Zm0-5.833H14.667a.833.833,0,0,0-.833.833h0v.833h5V9.5a.833.833,0,0,0-.729-.827Z" fill="#572ee5"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectángulo_4" data-name="Rectángulo 4" width="11" height="12" transform="translate(1238 303)" fill="#572ee5"/>
+    <rect id="Rectángulo_2" data-name="Rectángulo 2" width="2" height="7" rx="1" transform="translate(1241 305)" fill="#fff"/>
+    <rect id="Rectángulo_3" data-name="Rectángulo 3" width="2" height="7" rx="1" transform="translate(1244 305)" fill="#fff"/>
+  </g>
+</svg>

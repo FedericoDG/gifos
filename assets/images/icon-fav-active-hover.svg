@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Grupo_2" data-name="Grupo 2" transform="translate(-1231 -316)">
+    <g id="GIFOS" transform="translate(1231 316)">
+      <g id="_00-UI-Kit" data-name="00-UI-Kit" transform="translate(-858 -2777)">
+        <g id="icon-fav-hover" transform="translate(858 2777)">
+          <rect id="Rectangle-Copy-7" width="32" height="32" rx="6" fill="#fff"/>
+          <path id="Trazado_2" data-name="Trazado 2" d="M16.277,9.5A5.109,5.109,0,1,1,23.5,16.723L16.556,23.67a.786.786,0,0,1-1.111,0L8.5,16.723A5.109,5.109,0,0,1,15.722,9.5L16,9.774ZM16,22l5.559-5.559.833-.833a3.538,3.538,0,1,0-5-5l-.833.833a.786.786,0,0,1-1.111,0l-.833-.833a3.538,3.538,0,1,0-5,5Z" fill="#572ee5"/>
+        </g>
+      </g>
+    </g>
+    <g id="GIFOS-2" data-name="GIFOS" transform="translate(1237 323)">
+      <g id="_24-Mobile-Gifo-Max" data-name="24-Mobile-Gifo-Max" transform="translate(-261 -427)">
+        <path id="icon-fav-active" d="M275.322,427a5.626,5.626,0,0,1,4.015,1.7,5.861,5.861,0,0,1,0,8.18l-7.72,7.864a.861.861,0,0,1-1.235,0l-7.719-7.864a5.862,5.862,0,0,1,0-8.18,5.6,5.6,0,0,1,8.029,0l.308.314.308-.314A5.622,5.622,0,0,1,275.322,427Z" fill="#572ee5"/>
+      </g>
+    </g>
+  </g>
+</svg>
