@@ -1,27 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="53px" height="49px" viewBox="0 0 53 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>logo-mobile</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <polygon id="path-1" points="0.837379272 0.943343486 48.5296106 0.943343486 48.5296106 20.459945 0.837379272 20.459945"></polygon>
-    </defs>
-    <g id="GIFOS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="00-UI-Kit" transform="translate(-347.000000, -2463.000000)">
-            <g id="logo-mobile" transform="translate(347.000000, 2463.000000)">
-                <g id="Group-5">
-                    <polygon id="Fill-1" fill="#5ED7C6" points="0 -0.0002 0 48.7913039 48.7915039 48.7913039 48.7915039 38.3359816 45.3063965 38.3359816 45.3063965 45.3061965 3.48510742 45.3061965 3.48510742 3.48490742 34.8510742 3.48490742 34.8510742 13.9402297 45.3063965 13.9402297 45.3063965 20.9111416 48.7915039 20.9111416 48.7915039 10.4551223 38.3361816 -0.0002"></polygon>
-                    <g id="Group-4" transform="translate(7.000000, 16.000000)">
-                        <mask id="mask-2" fill="white">
-                            <use xlink:href="#path-1"></use>
-                        </mask>
-                        <g id="Clip-3"></g>
-                        <text id="GIFOS" mask="url(#mask-2)" font-family="Roboto-Black, Roboto" font-size="16" font-weight="700" fill="#572EE5">
-                            <tspan x="1" y="20">GIFOS</tspan>
-                        </text>
-                    </g>
-                </g>
-            </g>
-        </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="52.438" height="49.109" viewBox="0 0 52.438 49.109">
+  <g id="Grupo_3" data-name="Grupo 3" transform="translate(-190 -514)">
+    <path id="Icon_metro-file-picture" data-name="Icon metro-file-picture" d="M45.445,12.914a43.486,43.486,0,0,0-4.181-4.782,43.5,43.5,0,0,0-4.782-4.181c-2.473-1.814-3.673-2.024-4.36-2.024H8.335A3.841,3.841,0,0,0,4.5,5.765V47.2a3.841,3.841,0,0,0,3.837,3.837h35.3A3.841,3.841,0,0,0,47.469,47.2V17.274c0-.687-.21-1.887-2.024-4.361ZM39.094,10.3a41.859,41.859,0,0,1,3.481,3.9H35.192V6.822a41.817,41.817,0,0,1,3.9,3.48ZM44.4,47.2a.778.778,0,0,1-.767.767H8.335a.778.778,0,0,1-.767-.767V5.765A.778.778,0,0,1,8.335,5H32.122V15.74a1.535,1.535,0,0,0,1.535,1.535H44.4Z" transform="translate(194.969 512.072)" fill="#5ed7c6"/>
+    <rect id="Rectángulo_3" data-name="Rectángulo 3" width="41" height="17" rx="8.5" transform="translate(190 534)" fill="#5ed7c6"/>
+    <text id="GIFOS" transform="translate(193 546)" fill="#572ee5" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">GIFOS</tspan></text>
+    <g id="Grupo_2" data-name="Grupo 2">
+      <path id="Icon_metro-file-picture-2" data-name="Icon metro-file-picture" d="M45.445,12.914a43.486,43.486,0,0,0-4.181-4.782,43.5,43.5,0,0,0-4.782-4.181c-2.473-1.814-3.673-2.024-4.36-2.024H8.335A3.841,3.841,0,0,0,4.5,5.765V47.2a3.841,3.841,0,0,0,3.837,3.837h35.3A3.841,3.841,0,0,0,47.469,47.2V17.274c0-.687-.21-1.887-2.024-4.361ZM39.094,10.3a41.859,41.859,0,0,1,3.481,3.9H35.192V6.822a41.817,41.817,0,0,1,3.9,3.48ZM44.4,47.2a.778.778,0,0,1-.767.767H8.335a.778.778,0,0,1-.767-.767V5.765A.778.778,0,0,1,8.335,5H32.122V15.74a1.535,1.535,0,0,0,1.535,1.535H44.4Z" transform="translate(194.969 512.072)" fill="#5ed7c6"/>
+      <rect id="Rectángulo_5" data-name="Rectángulo 5" width="41" height="17" rx="8.5" transform="translate(190 534)" fill="#5ed7c6"/>
+      <text id="GIFOS-2" data-name="GIFOS" transform="translate(195 546)" fill="#572ee5" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">GIFOS</tspan></text>
     </g>
+  </g>
 </svg>
