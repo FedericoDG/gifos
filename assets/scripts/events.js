@@ -44,6 +44,7 @@ goToHome.addEventListener('click', () => {
   iconSearchHero.classList.remove('hidden');
   searchSuggestion.classList.add('hidden');
   searchHeroContainer.classList.remove('active');
+  noSearchResults.classList.add('hidden');
   onLoad();
 });
 
