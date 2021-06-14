@@ -1804,7 +1804,7 @@ header.dark .navbar .navbar__list .navbar__list-item a .menu-active:hover {
 
 .trending.dark .trending__container .trending__container-left .arrow-left:hover,
 .trending.dark .trending__container .trending__container-right .arrow-left:hover {
-  background: url("../images/button-slider-left-hover.svg");
+  background: url("../images/button-slider-left-md-noct-hover.svg");
 }
 
 .trending.dark .trending__container .trending__container-left .arrow-right,
@@ -1814,7 +1814,7 @@ header.dark .navbar .navbar__list .navbar__list-item a .menu-active:hover {
 
 .trending.dark .trending__container .trending__container-left .arrow-right:hover,
 .trending.dark .trending__container .trending__container-right .arrow-right:hover {
-  background: url("../images/Button-Slider-right-hover.svg");
+  background: url("../images/button-slider-right-md-noct-hover.svg");
 }
 
 .footer.dark {
