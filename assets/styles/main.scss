@@ -11,6 +11,7 @@ $colorDark: #37383c;
 $colorDarkTransparency: rgba(34, 35, 38, 0.95);
 $colorTredingDark: #222326;
 $desk: "min-width: 1440px";
+$tablet: "min-width: 768px";
 
 * {
   margin: 0;
@@ -67,7 +68,7 @@ header {
           height: 100%;
           display: block;
           background-color: $colorPrimary;
-          transition: .25s;
+          transition: 0.25s;
         }
         &::before {
           top: -6px;
@@ -219,6 +220,9 @@ main {
         @media ($desk) {
           width: 40%;
         }
+        @media ($tablet) {
+          width: 52%;
+        }
         /* Estilos para activo */
         .heading__search-container_input {
           border: none;
@@ -262,6 +266,9 @@ main {
         }
         @media ($desk) {
           width: 40%;
+        }
+        @media ($tablet) {
+          width: 52%;
         }
         ul {
           list-style: none;
@@ -366,6 +373,10 @@ main {
           overflow: hidden;
           transition: 0.5s;
         }
+        @media ($tablet) {
+          width: 12rem;
+          height: 9rem;
+        }
         .image {
           width: 100%;
           height: 100%;
@@ -384,6 +395,9 @@ main {
   padding-top: 30%;
   @media ($desk) {
     padding-top: 7.5%;
+  }
+  @media ($tablet) {
+    padding-top: 10%;
   }
   .image {
     display: block;
@@ -509,6 +523,9 @@ main {
         @media ($desk) {
           box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.25);
           height: 16rem;
+        }
+        @media ($tablet) {
+          height: 9rem;
         }
         img {
           height: 100%;
