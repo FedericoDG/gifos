@@ -1719,6 +1719,14 @@ header.dark .navbar .navbar__list {
   }
 }
 
+header.dark .navbar .navbar__list .navbar__list-item a span {
+  background: url("../images/CTA-crear-gifo-modo-noc.svg") center no-repeat;
+}
+
+header.dark .navbar .navbar__list .navbar__list-item a span:hover {
+  background: url("../images/CTA-crear-gifo-hover-modo-noc.svg") center no-repeat;
+}
+
 .heading.dark .heading__title {
   color: #ffffff;
 }
