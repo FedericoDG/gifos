@@ -1202,9 +1202,13 @@ main .results .results__more {
 }
 
 .creargif .timer .timer__text {
-  /* font-family: green; */
+  color: #572ee5;
   font-size: 16px;
   line-height: 22px;
+}
+
+.creargif .timer .dark {
+  color: #ffffff;
 }
 
 .creargif .overlay__buttons-container .overlay__buttons {
@@ -1294,7 +1298,8 @@ main .results .results__more {
 .creargif .border {
   width: 58%;
   margin: 0 auto;
-  border: 2px solid #572ee5;
+  border: 3px solid #572ee5;
+  border-radius: 3px;
 }
 
 .creargif .dark {

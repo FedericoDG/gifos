@@ -141,6 +141,8 @@ goToCreateGifos.addEventListener('click', () => {
   recordedGifo.classList.add('hidden');
   gifCreateTitle.classList.remove('hidden');
   gifCreateText.classList.remove('hidden');
+  video.classList.add('hidden');
+  repeatShot.classList.add('hidden')
   if (window.innerWidth < 1440) {
     menu.classList.remove('show');
   }

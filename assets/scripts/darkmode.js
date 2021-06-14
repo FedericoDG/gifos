@@ -26,6 +26,7 @@ const darkMode = (darkMode, change) => {
     btnCreateGifoEnd.classList.add('dark');
     btnCreateGifoUpload.classList.add('dark');
     repeatShot.classList.add('dark');
+    timerRecording.classList.add('dark')
     footer.classList.add('dark');
     if (navigator.userAgent.indexOf("Chrome") != -1) {
       iconSearchGreyHero.src = './assets/images/mic-modo-noc.svg';
@@ -66,6 +67,7 @@ const darkMode = (darkMode, change) => {
     btnCreateGifoEnd.classList.remove('dark');
     btnCreateGifoUpload.classList.remove('dark');
     repeatShot.classList.remove('dark');
+    timerRecording.classList.remove('dark')
     footer.classList.remove('dark');
     if (navigator.userAgent.indexOf("Chrome") != -1) {
       iconSearchGreyHero.src = './assets/images/mic.svg';

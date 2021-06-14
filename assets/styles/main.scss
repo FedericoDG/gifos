@@ -829,9 +829,12 @@ main {
     bottom: -2rem;
     right: 0px;
     .timer__text {
-      /* font-family: green; */
+      color: $colorPrimary;
       font-size: 16px;
       line-height: 22px;
+    }
+    .dark{
+      color: $colorWhite;
     }
   }
   .overlay__buttons-container {
@@ -902,7 +905,8 @@ main {
   .border {
     width: 58%;
     margin: 0 auto;
-    border: 2px solid $colorPrimary;
+    border: 3px solid $colorPrimary;
+    border-radius: 3px;
   }
   .dark {
     border-color: $colorWhite;
